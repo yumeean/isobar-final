@@ -1,0 +1,24 @@
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-flow: column-reverse wrap;
+    height: 100%;
+    width: 100%;
+    max-width: 24px;
+    max-height: 800px;
+
+  }
+.isobar-labels {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    max-width: 24px;
+    max-height: 800px;
+    justify-content: space-between;
+    align-items: flex-start;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+  }
